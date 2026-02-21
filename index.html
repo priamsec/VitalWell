@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VitalWell | Health, Wellness & Fitness</title>
-    <meta name="description" content="Science-backed tips for living longer, healthier, and happier.">
+    <meta name="description" content="Science-backed tips for living longer, healthier, and happier. Supplements, fitness, yoga, and longevity.">
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -23,79 +24,128 @@
 
     <main>
         <section class="hero">
-            <h1>VitalWell, Healthier, Better</h1>
-            <p>Science-backed insights on supplements, biometrics, fitness, yoga, and longevity.</p>
-            <a href="#posts" class="btn">Read the Blog →</a>
+            <div class="hero-content">
+                <h1>Build Your <span>Best Self</span></h1>
+                <p>Science-backed insights on supplements, biometrics, fitness, yoga, and longevity. No hype, just what actually works.</p>
+                <a href="#posts" class="btn">Start Reading →</a>
+            </div>
+        </section>
+
+        <section class="featured">
+            <h2>Featured</h2>
+            <div class="featured-grid">
+                <a href="posts/best-supplements-2026.html" class="featured-card">
+                    <img src="https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=800&q=80" alt="Supplements">
+                    <div class="featured-overlay">
+                        <span class="tag">Supplements</span>
+                        <h3>Best Supplements for Longevity in 2026</h3>
+                        <p>The top evidence-based supplements that actually move the needle on aging.</p>
+                    </div>
+                </a>
+                <a href="posts/home-gym-essentials.html" class="featured-card">
+                    <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=800&q=80" alt="Home Gym">
+                    <div class="featured-overlay">
+                        <span class="tag">Fitness</span>
+                        <h3>Home Gym Under $500</h3>
+                        <p>Build a complete home gym without breaking the bank.</p>
+                    </div>
+                </a>
+            </div>
         </section>
 
         <section id="posts" class="posts">
             <h2>Latest Articles</h2>
+            <p class="subtitle">Practical tips for your health journey</p>
+            
             <div class="post-grid">
-                <article class="post-card">
-                    <span class="tag">Yoga</span>
-                    <h3><a href="posts/beginner-yoga-routine.html">Beginner Yoga Routine: 15 Minutes to Flexibility</a></h3>
-                    <p>Start your yoga journey with these fundamental poses anyone can do.</p>
-                    <a href="posts/beginner-yoga-routine.html" class="read-more">Read more →</a>
-                </article>
+                <a href="posts/beginner-yoga-routine.html" class="post-card">
+                    <div class="post-card-image">
+                        <img src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=600&q=80" alt="Yoga">
+                    </div>
+                    <div class="post-card-content">
+                        <span class="tag">Yoga</span>
+                        <h3>Beginner Yoga Routine: 15 Minutes to Flexibility</h3>
+                        <p>Start your yoga journey with these fundamental poses anyone can do at home.</p>
+                        <span class="read-more">Read more</span>
+                    </div>
+                </a>
                 
-                <article class="post-card">
-                    <span class="tag">Supplements</span>
-                    <h3><a href="posts/best-supplements-2026.html">Best Supplements for Longevity in 2026</a></h3>
-                    <p>The top evidence-based supplements that actually move the needle on aging.</p>
-                    <a href="posts/best-supplements-2026.html" class="read-more">Read more →</a>
-                </article>
+                <a href="posts/oura-vs-whoop.html" class="post-card">
+                    <div class="post-card-image">
+                        <img src="https://images.unsplash.com/photo-1576243345690-4e4b6688c7dd?w=600&q=80" alt="Wearables">
+                    </div>
+                    <div class="post-card-content">
+                        <span class="tag">Wearables</span>
+                        <h3>Oura Ring vs Whoop: Which Is Worth It?</h3>
+                        <p>Comparing the two most popular health trackers for recovery and sleep.</p>
+                        <span class="read-more">Read more</span>
+                    </div>
+                </a>
                 
-                <article class="post-card">
-                    <span class="tag">Wearables</span>
-                    <h3><a href="posts/oura-vs-whoop.html">Oura Ring vs Whoop: Which Is Worth It?</a></h3>
-                    <p>Comparing the two most popular health trackers for recovery and sleep.</p>
-                    <a href="posts/oura-vs-whoop.html" class="read-more">Read more →</a>
-                </article>
+                <a href="posts/progressive-overload-guide.html" class="post-card">
+                    <div class="post-card-image">
+                        <img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=600&q=80" alt="Fitness">
+                    </div>
+                    <div class="post-card-content">
+                        <span class="tag">Sports</span>
+                        <h3>Progressive Overload: The Secret to Gains</h3>
+                        <p>How to keep making progress in the gym without plateauing.</p>
+                        <span class="read-more">Read more</span>
+                    </div>
+                </a>
                 
-                <article class="post-card">
-                    <span class="tag">Fitness</span>
-                    <h3><a href="posts/home-gym-essentials.html">Home Gym Essentials Under $500</a></h3>
-                    <p>Build a complete home gym without breaking the bank.</p>
-                    <a href="posts/home-gym-essentials.html" class="read-more">Read more →</a>
-                </article>
+                <a href="posts/morning-routine-energy.html" class="post-card">
+                    <div class="post-card-image">
+                        <img src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=600&q=80" alt="Morning Routine">
+                    </div>
+                    <div class="post-card-content">
+                        <span class="tag">Routine</span>
+                        <h3>How to Build a Morning Routine for Peak Energy</h3>
+                        <p>Science-backed habits to maximize your mornings and energy all day.</p>
+                        <span class="read-more">Read more</span>
+                    </div>
+                </a>
                 
-                <article class="post-card">
-                    <span class="tag">Sports</span>
-                    <h3><a href="posts/progressive-overload-guide.html">Progressive Overload: The Secret to Gains</a></h3>
-                    <p>How to keep making progress in the gym without plateauing.</p>
-                    <a href="posts/progressive-overload-guide.html" class="read-more">Read more →</a>
-                </article>
+                <a href="posts/cheap-lab-tests.html" class="post-card">
+                    <div class="post-card-image">
+                        <img src="https://images.unsplash.com/photo-1579154204601-01588f351e67?w=600&q=80" alt="Lab Tests">
+                    </div>
+                    <div class="post-card-content">
+                        <span class="tag">Biomarkers</span>
+                        <h3>Cheapest Way to Get Lab Tests for Biomarkers</h3>
+                        <p>How to test your health markers without breaking the bank.</p>
+                        <span class="read-more">Read more</span>
+                    </div>
+                </a>
                 
-                <article class="post-card">
-                    <span class="tag">Routine</span>
-                    <h3><a href="posts/morning-routine-energy.html">How to Build a Morning Routine for Peak Energy</a></h3>
-                    <p>Science-backed habits to maximize your mornings and energy all day.</p>
-                    <a href="posts/morning-routine-energy.html" class="read-more">Read more →</a>
-                </article>
-                
-                <article class="post-card">
-                    <span class="tag">Biomarkers</span>
-                    <h3><a href="posts/cheap-lab-tests.html">Cheapest Way to Get Lab Tests for Biomarkers</a></h3>
-                    <p>How to test your health markers without breaking the bank.</p>
-                    <a href="posts/cheap-lab-tests.html" class="read-more">Read more →</a>
-                </article>
+                <a href="posts/best-supplements-2026.html" class="post-card">
+                    <div class="post-card-image">
+                        <img src="https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=600&q=80" alt="Supplements">
+                    </div>
+                    <div class="post-card-content">
+                        <span class="tag">Supplements</span>
+                        <h3>Best Supplements for Longevity in 2026</h3>
+                        <p>The top evidence-based supplements that actually move the needle on aging.</p>
+                        <span class="read-more">Read more</span>
+                    </div>
+                </a>
             </div>
         </section>
 
         <section id="about" class="about">
             <h2>About VitalWell</h2>
-            <p>We curate the best science-backed health and longevity information. No hype, just what works.</p>
+            <p>We curate the best science-backed health and longevity information. No hype, just what works. Our mission is to help you live a longer, healthier, more vibrant life.</p>
             <p>Subscribe to get the latest insights delivered to your inbox.</p>
             <form class="signup-form" onsubmit="alert('Thanks for subscribing!'); return false;">
-                <input type="email" placeholder="Your email" required>
+                <input type="email" placeholder="Your email address" required>
                 <button type="submit">Subscribe</button>
             </form>
         </section>
     </main>
 
     <footer>
-        <p>© 2026 VitalWell. Health, Wellness & Longevity.</p>
-        <p class="disclaimer">Disclaimer: This site is for informational purposes only. Consult a doctor before starting any supplement regimen.</p>
+        <p>© 2026 VitalWell. Health, Wellness & Fitness.</p>
+        <p class="disclaimer">Disclaimer: This site is for informational purposes only. Consult a doctor before starting any supplement or fitness regimen. We may earn commissions from affiliate links.</p>
     </footer>
 </body>
 </html>
