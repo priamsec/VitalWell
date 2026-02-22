@@ -751,3 +751,9 @@ footer hr {
     background: var(--primary);
     color: #000;
 }
+
+/* Ensure post titles are normal case */
+.post-card h3 {
+    text-transform: none;
+}
+
