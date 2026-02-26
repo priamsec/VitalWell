@@ -1,2 +1,2 @@
-# livelonger-blog
-Health, Wellness &amp; Longevity Blog
+# Boldly Balanced
+General Lifestyle Blog
