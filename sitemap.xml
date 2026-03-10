@@ -316,3 +316,8 @@
         <priority>0.8</priority>
     </url>
 </urlset>
+    <url>
+        <loc>https://boldly-balanced.vercel.app/posts/breathwork-stress-focus.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
