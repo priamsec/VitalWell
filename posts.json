@@ -74,21 +74,17 @@
   {
     "slug": "habits-balanced-life",
     "title": "Habits for a Boldly Balanced Life",
-    "subtitle": "Small daily routines that compound into balance",
-    "author": "Ferdy",
-    "date": "2026-03-11",
-    "tags": ["Lifestyle", "Wellness", "Habits"],
+    "category": "Wellness",
+    "image": "photo-1506126610-2829eec74e53",
     "excerpt": "Practical daily habits that create balance across work, health, and relationships.",
-    "path": "posts/habits-balanced-life.html"
+    "date": "2026-03-11"
   },
   {
     "slug": "hybrid-wellness",
     "title": "Hybrid Wellness: Blending Mindset, Movement, and Micro-Rest",
-    "subtitle": "A practical approach to wellness that fits busy lives",
-    "author": "Ferdy",
-    "date": "2026-03-11",
-    "tags": ["Wellness", "Mindset", "Lifestyle"],
+    "category": "Wellness",
+    "image": "photo-1544367563-12123d8965cd",
     "excerpt": "A framework for staying healthy when life moves fast.",
-    "path": "posts/hybrid-wellness.html"
+    "date": "2026-03-11"
   }
 ]
