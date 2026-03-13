@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "title": "Cold Exposure Therapy: The Science of Getting Uncomfortable",
+      "url": "posts/cold-exposure-therapy-science.html",
+      "tags": [
+        "wellness",
+        "cold-exposure",
+        "cold-plunge",
+        "dopamine",
+        "recovery"
+      ]
+    },
+    {
       "title": "Decision Fatigue: Why Making Fewer Choices Makes You More Effective",
       "url": "posts/decision-fatigue-fewer-choices.html",
       "tags": [
