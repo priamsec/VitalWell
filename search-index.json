@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "title": "Sleep Architecture: Why 8 Hours Is a Myth and What Actually Matters",
+      "url": "posts/sleep-architecture-8-hours-myth.html",
+      "tags": [
+        "sleep",
+        "sleep-architecture",
+        "deep-sleep",
+        "rem-sleep",
+        "wellness"
+      ]
+    },
+    {
       "title": "The Over-Optimization Trap: When Self-Improvement Hurts You",
       "url": "posts/over-optimization-trap.html",
       "tags": [
