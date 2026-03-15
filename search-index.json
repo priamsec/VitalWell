@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "title": "Traveling With Zero Plans: The Art of Getting Lost on Purpose",
+      "url": "posts/traveling-zero-plans.html",
+      "tags": [
+        "travel",
+        "lifestyle",
+        "spontaneity",
+        "digital-nomad",
+        "slow-travel"
+      ]
+    },
+    {
       "title": "The Gut-Brain Connection: How Your Digestive System Shapes Your Mood, Focus, and Energy",
       "url": "posts/gut-brain-connection.html",
       "tags": [
@@ -581,10 +592,15 @@
       ]
     },
     {
-      "title": "Strength Training After 40",
+      "title": "Strength Training After 40: The Reality of Building Muscle When You're Not 25 Anymore",
       "url": "posts/strength-training-after-40.html",
       "tags": [
-        "fitness"
+        "fitness",
+        "strength training",
+        "muscle building",
+        "over 40",
+        "aging",
+        "resistance training"
       ]
     },
     {
